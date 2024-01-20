@@ -41,7 +41,7 @@ const heros = ["Thor", "saktiman", "ironman"];
  const myFunction = function() {
     console.log("hello world!");
  }
-console.log(typeof myFunction);
+console.log(typeof anotherId);
 
 
 
@@ -68,3 +68,28 @@ console.log(typeof myFunction);
 
 
 //Stack (Primitive Datatype).  // Heap(Non primitive datatype)//
+
+let myLaptopName = "HP Pavilion";
+let anotherLaptopName = myLaptopName;
+anotherLaptopName = "MackBook Air";
+console.log(myLaptopName);
+console.log(anotherLaptopName);
+
+let userOne = {
+    email: "abc@gmaiil.com",
+    upi :"ghy@upi.com"
+
+}
+let userTwo = userOne
+userTwo.email = "dfe@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+// let myWatch = ["noise","sonata","boat"];
+let myWatch = "boat";
+let anotherWatch = myWatch;
+anotherWatch = "noise";
+
+console.log(myWatch);
+console.log(anotherWatch);
