@@ -65,3 +65,6 @@ console.log(typeof myFunction);
 // Object (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3...//
+
+
+//Stack (Primitive Datatype).  // Heap(Non primitive datatype)//
