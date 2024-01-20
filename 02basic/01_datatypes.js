@@ -7,3 +7,6 @@
 //undefined => no value
 //symbol => unique
 // null is object // interview question
+
+console.log(typeof null) //object
+console.log(typeof undefined) //undefind
