@@ -22,7 +22,7 @@ let emailId;
 // Symbol Datatype:-> Exampale
 const Id = Symbol('123');
 const anotherId = Symbol('2135');
-console.log(Id === anotherId);
+// console.log(Id === anotherId);
 //BigInt Datatype:-> Exampale
 const bigNumber = 1223557452484;
 
@@ -32,3 +32,36 @@ const bigNumber = 1223557452484;
 // Referance (Non Primitive Datatype)
 //(1) Array, (2) Object (3) Function ........
 
+const heros = ["Thor", "saktiman", "ironman"];
+ let myObj = {
+    name:"Ayan",
+    agg:24,
+ }
+
+ const myFunction = function() {
+    console.log("hello world!");
+ }
+console.log(typeof myFunction);
+
+
+
+//The typeof Operator
+//The production UnaryExpression : typeof UnaryExpression is evaluated as follows:
+
+// Let val be the result of evaluating UnaryExpression.
+// If Type(val) is Reference, then
+// If IsUnresolvableReference(val) is true, return "undefined".
+// Let val be GetValue(val).
+// Return a String determined by Type(val) according to Table 20.
+// Table 20 — typeof Operator Results
+// Type of val	Result
+// Undefined	"undefined"
+// Null	"object"
+// Boolean	"boolean"
+// Number	"number"
+// String	"string"
+// Object (native and does not implement [[Call]])	"object"
+// Object (native or host and does implement [[Call]])	"function"
+// Object (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+//https://262.ecma-international.org/5.1/#sec-11.4.3...//
