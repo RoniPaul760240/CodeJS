@@ -69,27 +69,45 @@ console.log(typeof anotherId);
 
 //Stack (Primitive Datatype).  // Heap(Non primitive datatype)//
 
-let myLaptopName = "HP Pavilion";
-let anotherLaptopName = myLaptopName;
-anotherLaptopName = "MackBook Air";
-console.log(myLaptopName);
-console.log(anotherLaptopName);
+// let myLaptopName = "HP Pavilion";
+// let anotherLaptopName = myLaptopName;
+// anotherLaptopName = "MackBook Air";
+// console.log(myLaptopName);
+// console.log(anotherLaptopName);
 
-let userOne = {
-    email: "abc@gmaiil.com",
-    upi :"ghy@upi.com"
+// let userOne = {
+//     email: "abc@gmaiil.com",
+//     upi :"ghy@upi.com"
 
-}
-let userTwo = userOne
-userTwo.email = "dfe@gmail.com"
-console.log(userOne.email);
-console.log(userTwo.email);
+// }
+// let userTwo = userOne
+// userTwo.email = "dfe@gmail.com"
+// console.log(userOne.email);
+// console.log(userTwo.email);
 
 
-// let myWatch = ["noise","sonata","boat"];
-let myWatch = "boat";
+
+// let myWatch = "boat";
+// let anotherWatch = myWatch;
+// anotherWatch = "noise";
+
+// console.log(myWatch);
+// console.log(anotherWatch);
+
+//Stack Exampale:->
+let myWatch = "Sonata";
 let anotherWatch = myWatch;
-anotherWatch = "noise";
-
+anotherWatch = "FireBolt";
 console.log(myWatch);
 console.log(anotherWatch);
+
+//Heap Exampale:-.
+
+let userOne = {
+   email: "acd@gmail.com",
+   upi: "qas@upi.com"
+}
+let userTwo = userOne
+userTwo.email = "yyt@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
