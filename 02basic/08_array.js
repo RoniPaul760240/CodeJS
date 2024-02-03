@@ -47,3 +47,4 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 console.log (Array.isArray("AyanPaul"))
 console.log(Array.from("AyanPaul"))
+console.log(Array.from({name: "AyanPAul"}))
