@@ -29,5 +29,12 @@ JsUser.email="palayan@microsoft.com"
 JsUser.greeting = function(){
     console.log("hello js user");
 }
-console.log(JsUser.greeting);
+
+JsUser.greetingTwo = function(){
+    console.log(`hello js user,${this.name}`);
+}
+
+// console.log(JsUser.greetingTwo);
 console.log(JsUser.greeting());
+ console.log(JsUser.greetingTwo());
+
