@@ -32,4 +32,32 @@ function loginUserMassage (username = "shyam"){
     return`${username} userjustoggedin`
 }
 // console.log(loginUserMassage("Ayan"))
-console.log(loginUserMassage("ayan"))
+// console.log(loginUserMassage("ayan"))
+
+function calculatecartprice (val1,val2,...num1) {
+    return num1
+}
+// console.log(calculatecartprice(200,300,400,5000));
+
+const user = {
+    productname: "mars serum",
+    prices: 499
+}
+
+function handleobject (anyobject){
+    console.log(`product name is ${anyobject.productname} and price is ${anyobject.price}`);
+}
+// handleobject(user)
+handleobject({
+    productname: "ponds serum",
+    price: 599
+})
+
+const myNewArray = [200,899,255,4174,1258]
+
+function returnSecondvalue (getArray){
+    return getArray[6]
+}
+// console.log(returnSecondvalue(myNewArray));
+console.log(returnSecondvalue([200,565,789,417,5856,1254,5858]));
+
