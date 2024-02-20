@@ -18,4 +18,15 @@ function addTwoNumbers(num1, num2){
 }
 
 const result = addTwoNumbers(5,6)
-console.log("Result: ", result);
+// console.log("Result: ", result);
+
+function logInUser(userName = "Ram"){
+    if(!userName){
+        console.log("Please enter a user name");
+        return
+    }
+    return `${userName} just log in` 
+}
+// const myUser = logInUser("Ayan")
+console.log(logInUser("Ayan"));
+// console.log(logInUser());
