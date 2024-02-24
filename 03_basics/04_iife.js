@@ -4,7 +4,7 @@
 
 (function chai(){              // This is name IIFE  ***interview
     console.log("DB CONNECTED");
-})();
+})();                          // ';' add to iife
 
 ( (name) => {             // Un name IIFE ***interview 
     console.log(`DB SUCEESFULLY CONECTED ${name}`);
