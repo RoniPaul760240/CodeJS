@@ -28,12 +28,14 @@
 
 // ********* Example*********
 
-let val1 = 20
-let val2 = 29
+// let val1 = 20
+// let val2 = 29
 
-function addnum(num1, num2){
-    let total = num1 + num2
-    return total
-}
-let result1 = (val1, val2)
-let result2 = (20, 29)
+// function addnum(num1, num2){
+//     let total = num1 + num2
+//     return total
+// }
+// let result1 = (val1, val2)
+// let result2 = (20, 29)
+
+
