@@ -16,7 +16,7 @@
 const score = 200
 if(score > 100){
    let power = "fly"
-   console.log(`user power : ${power}`);
+   // console.log(`user power : ${power}`);
 }
 
 // console.log(`user power : ${power}`);
@@ -47,5 +47,18 @@ if(score > 100){
 
 // }
 
+
+const userLoggedIn = true
+const debitcard = true
+const creditcard = false
+const LoggedInGoogole = true
+const LoggedInEmail = true
+
+if(userLoggedIn && debitcard){
+   console.log("Allow to buy course");
+}
+if(LoggedInEmail || LoggedInGoogole){
+   console.log("Allow to loggedIn");
+}
 
 
