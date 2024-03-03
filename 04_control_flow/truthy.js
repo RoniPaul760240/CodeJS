@@ -1,10 +1,10 @@
-const useremail = "a@gmail.com"
-if(useremail){
-    console.log("Got email id");
-}
-else{
-    console.log("No email id");
-}
+// const useremail = "a@gmail.com"
+// if(useremail){
+//     console.log("Got email id");
+// }
+// else{
+//     console.log("No email id");
+// }
 
 
 
@@ -16,8 +16,8 @@ else{
 // *** truthy values 
 // "0", 'false', " ", [], {}, function(){},
 
-const userEmail = []
-if (userEmail.length === 0) {
+const userArray = []
+if (userArray.length === 0) {
     console.log("Empty array");
 }
 
@@ -30,4 +30,18 @@ const emptyObj = {}
 
 let vel1 = 5 ?? 10
 console.log(vel1);
+
+let vel2 = undefined ?? 20
+console.log(vel2);
+
+let vel3 = null ?? 20
+console.log(vel3);
+
+// **** Terniary Operator//
+//** Condition ? true : false
+
+const teaprice = 100
+teaprice <= 80 ? console.log("less then 80") :console.log("more then 80")
+
+
 
